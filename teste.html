@@ -1,19 +1,36 @@
-<html> 
+<html>
 	<header>
-		<link href="css/estilo.css" rel="stylesheet">
+		<title>teste html</title>
+		<style>
+			* {
+				margin:0;
+				padding:0;
+				box-sizing: border-box;	
+			}
+
+			.container {
+				height:100%;
+				display:flex;
+				flex-direction:row;
+				flex-wrap: wrap;
+				justify-content: space-around;
+				align-items: center;
+			}
+
+			.child{
+				width: 20%;
+				height: 200px;
+				background-color:blueviolet;
+				border:1px solid black;
+				border-radius: 50%;
+			}
+		</style>
 	</header>
-	<body>
-	
-		<p>asdasd</p>
-
-		<p>davisd</p>
-		
-		<p class="teste-classe">richard</p>
-
-		<ul>
-			<li class="teste-classe">dddddddd</li>
-		</ul>
-		asdasd
+	<body> 
+		<div class="container">
+			<div class="child"></div>
+			<div class="child"></div>
+			<div class="child"></div>
+		</div><!--container-->
 	</body>
-
 </html>
