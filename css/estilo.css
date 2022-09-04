@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(180, 180, 179);
+  color: blue;
+}
+
+p {
+  color: red;
+}
+
+p.teste-classe {
+  color: pink;
+}
